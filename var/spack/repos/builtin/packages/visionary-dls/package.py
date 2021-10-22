@@ -24,6 +24,7 @@ class VisionaryDls(Package):
 
     depends_on("visionary-dev-tools", when="+dev")
 
+    depends_on('meep')
     depends_on('py-breathe')
     depends_on('py-brian2')
     depends_on('py-flask')
